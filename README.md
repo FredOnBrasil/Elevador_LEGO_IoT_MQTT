@@ -91,14 +91,17 @@ flowchart TD
 
 ## 📸 Demonstração
 
+### 🔹 Hardware: conjunto completo
+![Foto conjunto completo](https://github.com/FredOnBrasil/Elevador_LEGO_IoT_MQTT/blob/main/Imagens/conjunto_completo.jpg)
+
+### 🔹 Hardware: vista superior
+![Foto vista superior](https://github.com/FredOnBrasil/Elevador_LEGO_IoT_MQTT/blob/main/Imagens/Vista_superior.jpg)
+
 ### 🔹 Hardware: controle subida e descida
 ![Foto do Elevador](https://github.com/FredOnBrasil/Elevador_LEGO_IoT_MQTT/blob/main/Imagens/Controle_de_subida_e_descida_elevador.jpg)
 
 ### 🔹 Hardware: lateral do elevador
 ![Foto lateral](https://github.com/FredOnBrasil/Elevador_LEGO_IoT_MQTT/blob/main/Imagens/Lateral_elevador.jpg)
-
-### 🔹 Hardware: vista superior
-![Foto vista superior](https://github.com/FredOnBrasil/Elevador_LEGO_IoT_MQTT/blob/main/Imagens/Vista_superior.jpg)
 
 ### 🔹 Hardware: placa parte posterior
 ![Foto vista posterior](https://github.com/FredOnBrasil/Elevador_LEGO_IoT_MQTT/blob/main/Imagens/Montagem_parte_posterior.jpg)
@@ -121,5 +124,7 @@ flowchart TD
 ### 🔹 Interface Publisher/Subscriber (WPF)
 ![Pub_Sub3](https://github.com/FredOnBrasil/Elevador_LEGO_IoT_MQTT/blob/main/Imagens/publisher_subscriber.png)
 
+### 🔹 Teste com MQTT Explorer
+![MQTT Explorer](https://github.com/FredOnBrasil/Elevador_LEGO_IoT_MQTT/blob/main/Imagens/teste_mqtt_explorer.png)
 
 ---
