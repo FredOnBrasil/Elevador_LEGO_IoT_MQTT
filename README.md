@@ -43,7 +43,7 @@ flowchart LR
 ## 📸 Demonstração
 
 ### 🔹 Hardware
-![Foto do Elevador](images/conjunto completo.jpg)
+![Foto do Elevador](Images/conjunto completo.jpg)
 
 ### 🔹 Interface Publisher (WPF)
 ![Publisher](images/publisher.png)
