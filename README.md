@@ -43,7 +43,7 @@ flowchart LR
 ## 📸 Demonstração
 
 ### 🔹 Hardware
-![Foto do Elevador](Images/conjunto_completo.jpg)
+![Foto do Elevador](https://github.com/FredOnBrasil/Elevador_LEGO_IoT_MQTT/blob/main/Imagens/Controle_de_subida_e_descida_elevador.jpg)
 
 ### 🔹 Interface Publisher (WPF)
 ![Publisher](images/publisher.png)
