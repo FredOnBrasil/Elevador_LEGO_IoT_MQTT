@@ -39,6 +39,55 @@ flowchart LR
     C -- MQTT --> D[Aplicação WPF Subscriber]
 
 ```
+### 🚀 Fluxograma – Arduino
+
+```mermaid
+flowchart TD
+    A([Início]) --> B[Inicializa pinos e Serial]
+    B --> C[Ler sensores de posição]
+    C --> D{Recebe comando via Serial?}
+    D -- Não --> C
+    D -- Sim --> E{Comando}
+    E -- SUBIR --> F[Aciona motor para cima]
+    E -- DESCER --> G[Aciona motor para baixo]
+    F --> H{Chegou limite superior?}
+    G --> I{Chegou limite inferior?}
+    H -- Sim --> J[Parar motor]
+    H -- Não --> C
+    I -- Sim --> J[Parar motor]
+    I -- Não --> C
+    J --> K[Enviar status via Serial]
+    K --> C
+```
+
+## 🔹 Fluxograma – WPF Publisher
+### 💻 Fluxograma – WPF Publisher
+
+```mermaid
+flowchart TD
+    A([Início]) --> B[Conectar ao Broker MQTT]
+    B --> C[Abrir conexão Serial com Arduino]
+    C --> D[Ler dados recebidos do Arduino]
+    D --> E[Transformar em mensagem JSON]
+    E --> F[Publicar mensagem no tópico MQTT]
+    F --> D
+    C --> G{Botão de comando acionado?}
+    G -- Sim --> H[Enviar comando SUBIR/DESCER ao Arduino]
+    G -- Não --> D
+````
+## 🔹 3. Fluxograma – WPF Subscriber
+### 📡 Fluxograma – WPF Subscriber
+
+```mermaid
+flowchart TD
+    A([Início]) --> B[Conectar ao Broker MQTT]
+    B --> C[Inscrever-se no tópico do elevador]
+    C --> D[Receber mensagem MQTT]
+    D --> E[Decodificar JSON]
+    E --> F[Atualizar interface gráfica]
+    F --> C
+````
+---
 
 ## 📸 Demonstração
 
@@ -71,3 +120,6 @@ flowchart LR
 
 ### 🔹 Interface Publisher/Subscriber (WPF)
 ![Pub_Sub3](https://github.com/FredOnBrasil/Elevador_LEGO_IoT_MQTT/blob/main/Imagens/publisher_subscriber.png)
+
+
+---
