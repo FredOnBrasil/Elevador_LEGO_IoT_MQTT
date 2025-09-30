@@ -1,4 +1,4 @@
-# 🚀 Projeto Didático de IoT – Elevador com Arduino, WPF e MQTT
+# 🚀 Projeto Didático de IoT – Elevador com Arduino, LEGO, WPF e MQTT
 
 Este projeto foi desenvolvido com fins **educacionais** para demonstrar aos alunos do curso técnico em Desenvolvimento de Sistemas o uso do protocolo **MQTT** aplicado à Internet das Coisas (IoT).
 
@@ -42,11 +42,32 @@ flowchart LR
 
 ## 📸 Demonstração
 
-### 🔹 Hardware
+### 🔹 Hardware: controle subida e descida
 ![Foto do Elevador](https://github.com/FredOnBrasil/Elevador_LEGO_IoT_MQTT/blob/main/Imagens/Controle_de_subida_e_descida_elevador.jpg)
 
+### 🔹 Hardware: lateral do elevador
+![Foto lateral](https://github.com/FredOnBrasil/Elevador_LEGO_IoT_MQTT/blob/main/Imagens/Lateral_elevador.jpg)
+
+### 🔹 Hardware: vista superior
+![Foto vista superior](https://github.com/FredOnBrasil/Elevador_LEGO_IoT_MQTT/blob/main/Imagens/Vista_superior.jpg)
+
+### 🔹 Hardware: placa parte posterior
+![Foto vista posterior](https://github.com/FredOnBrasil/Elevador_LEGO_IoT_MQTT/blob/main/Imagens/Montagem_parte_posterior.jpg)
+
+### 🔹 Hardware: vista lateral
+![Foto vista lateral](https://github.com/FredOnBrasil/Elevador_LEGO_IoT_MQTT/blob/main/Imagens/Lateral_elevador.jpg)
+
+### 🔹 Hardware: vista frontal
+![Foto vista frontal](https://github.com/FredOnBrasil/Elevador_LEGO_IoT_MQTT/blob/main/Imagens/vista_frontal.jpg)
+
 ### 🔹 Interface Publisher (WPF)
-![Publisher](images/publisher.png)
+![Publisher](https://github.com/FredOnBrasil/Elevador_LEGO_IoT_MQTT/blob/main/Imagens/Interface_publisher.png)
 
 ### 🔹 Interface Subscriber (WPF)
-![Subscriber](images/subscriber.png)
+![Subscriber](https://github.com/FredOnBrasil/Elevador_LEGO_IoT_MQTT/blob/main/Imagens/interface_subscriber.png)
+
+### 🔹 Interface Publisher/Subscriber (WPF)
+![Pub_Sub1](https://github.com/FredOnBrasil/Elevador_LEGO_IoT_MQTT/blob/main/Imagens/publisher_e_subscriber_3.png)
+
+### 🔹 Interface Publisher/Subscriber (WPF)
+![Pub_Sub3](https://github.com/FredOnBrasil/Elevador_LEGO_IoT_MQTT/blob/main/Imagens/publisher_subscriber.png)
